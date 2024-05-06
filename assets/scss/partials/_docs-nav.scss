@@ -1,7 +1,11 @@
 body > section {
   // display: flex;
   // gap: 1em;
-
+  
+nav ul ul { /* Targeting sub-menus */
+  display: block !important; /* Ensures they are always visible */
+}
+  
   > nav {
     flex: 0 0 var(--nav-width);
 

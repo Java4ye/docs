@@ -2,10 +2,6 @@ body > section {
   // display: flex;
   // gap: 1em;
   
-nav ul ul { /* Targeting sub-menus */
-  display: block !important; /* Ensures they are always visible */
-}
-  
   > nav {
     flex: 0 0 var(--nav-width);
 
@@ -14,6 +10,7 @@ nav ul ul { /* Targeting sub-menus */
       margin: 0 0 0 1em;
       padding: 0;
       font-weight: 400;
+      display: block !important; /* Ensures they are always visible */
 
       > li {
         margin: 0.5em 0;
@@ -31,6 +28,7 @@ nav ul ul { /* Targeting sub-menus */
     > ul {
       margin: 0;
       font-weight: 500;
+      display: block !important; /* Ensures they are always visible */
     }
   }
 
